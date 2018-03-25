@@ -357,3 +357,6 @@ select ENAME
 from emp
 where EMPNO IN (select MGR from emp )
 ;
+
+
+-- 마지막 코멘트 추가
